@@ -1,0 +1,51 @@
+body {
+    background: oldlace;
+}
+p {
+    font-size: 20px;
+    border-style: solid;
+    border-color: mediumaquamarine;
+    background: lightcyan;
+}
+h4 {
+    color: black;
+    font-size: 20px;
+
+}
+h3 {
+    color: cornflowerblue;
+    font-size: 30px;
+    border-width: 5px;
+    border-style: groove;
+    border-color: darkslategray;
+    text-align: center;
+    background: lightcyan;
+
+}
+.text-color {
+    color: cornflowerblue;
+    font-size: 60px;
+    border-style: solid dashed;
+    border-color: mediumaquamarine;
+    border-width: 10px;
+    text-align: center;
+    background: lightcyan;
+}
+ul {
+    color: darkslategray;
+    font-size: 20px;
+    border-style: dashed;
+    border-color: mediumaquamarine;
+    background: lightcyan;
+}
+li {
+    color: olivedrab;
+}
+a {
+    color: dodgerblue;
+}
+.box {
+    border-style: solid;
+    border-color: mediumaquamarine;
+    border-width: 7px;
+}
