@@ -16,8 +16,8 @@ h3 {
     color: cornflowerblue;
     font-size: 30px;
     border-width: 5px;
-    border-style: groove;
-    border-color: darkslategray;
+    border-style: solid;
+    border-color: green;
     text-align: center;
     background: lightcyan;
 
