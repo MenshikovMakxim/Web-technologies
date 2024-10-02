@@ -1,11 +1,15 @@
 body, main, html {
-    background: #704fb8;
+    background: linear-gradient(135deg, #402ae8 0%, #2488a3 100%);
     width: auto;
     padding: 0;
     margin: 0;
 }
 header {
-    background: #704fb8;
+    /*background: #704fb8;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20%;
+    background-image: url('../img/header.jpg');
     width: 100%;
 }
 
@@ -49,7 +53,7 @@ p {
 }
 
 nav {
-    background-color: #402ae8;
+    background-color: rgba(106, 74, 158, 0.5);
     font-size: 25px;
     display: flex;
     justify-content: space-around;
@@ -140,6 +144,7 @@ article {
     background: #402ae8;
 }
 .picture{
+    background-image: url('../img/fitness_girl.jpg');
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -219,7 +224,6 @@ label {
         flex-direction: column;
         top: 40px;
         right: 0;
-        background: #402ae8;
         width: 100%;
     }
     #burger-tap:checked ~ ul li {
