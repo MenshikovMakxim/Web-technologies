@@ -73,6 +73,8 @@ i {
     background-color: rgb(100% 80% 100% / .9);
     backdrop-filter: blur(50px);
     margin: 10px 10px;
+    width: 170px;
+    height: 170px;
  }
 .icon {
     font-size: 15px;
@@ -227,7 +229,7 @@ nav {
     border-bottom: grey 3px solid;
     backdrop-filter: blur(2px);
 }
-.ul-nav {
+.menu {
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -279,7 +281,7 @@ label, #burger-tap {
         top: 50%;
         transform: translateY(-50%);
     }
-    .ul-nav {
+    .menu {
         display: none;
         padding: 0;
         margin: 0;
@@ -312,7 +314,7 @@ label, #burger-tap {
     #burger-tap:checked ~ label span {
         display: none;
     }
-    #burger-tap:checked ~ ul {
+    #burger-tap:checked ~ .menu {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -320,7 +322,7 @@ label, #burger-tap {
         right: 0;
         width: 100%;
     }
-    #burger-tap:checked ~ ul li {
+    #burger-tap:checked ~ .menu .a-nav .image-hover {
         float: none;
         padding: 10px;
         text-align: left;
